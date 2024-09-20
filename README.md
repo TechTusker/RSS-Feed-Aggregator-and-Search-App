@@ -29,21 +29,22 @@ Make sure you have the following installed on your machine:
 - **Flask** (`pip install flask`)
 - **Feedparser** (`pip install feedparser`)
 
-### Project Structure
-'''rss-aggregator/ 
-│ 
-├── app.py # Main Flask app 
+## Project Structure
+
+```bash
+rss-aggregator/
+├── app.py                 # Main Flask app
 ├── templates/
-│ ├── index.html # Homepage template for displaying articles 
-│ └── search.html # Template for search results 
-├── static/ 
-│ ├── style.css # Custom CSS for styling the app 
-│ └── script.js # JavaScript for any client-side interactivity 
-├── screenshots/ 
-│ ├── homepage.png # Screenshot of homepage 
-│ └── search.png # Screenshot of search functionality 
-└── requirements.txt # List of dependencies
-'''
+│   ├── index.html         # Homepage template for displaying articles
+│   └── search.html        # Template for search results
+├── static/
+│   ├── style.css          # Custom CSS for styling the app
+│   └── script.js          # JavaScript for any client-side interactivity
+├── screenshots/
+│   ├── homepage.png       # Screenshot of homepage
+│   └── search.png         # Screenshot of search functionality
+└── requirements.txt       # List of dependencies
+```
 ## Screenshots
 
 ### Homepage Screenshot
