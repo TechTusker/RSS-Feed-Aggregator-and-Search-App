@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEWS STAGE!</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <header>
+        <h1>RSS AGGREGATOR</h1>
+        <form action="{{ url_for('search') }}" method="get">
+            <input type="text" name="q" placeholder="Search for Keyword">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    
+    <!-- Main content area for child templates to insert content -->
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
